@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { addRisk } from "../api/api";
-import { Select } from "@headlessui/react";
 
 const RiskForm = ({ refreshData }) => {
   const [form, setForm] = useState({

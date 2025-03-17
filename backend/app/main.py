@@ -52,7 +52,7 @@ def root():
 @app.get("/test-db")
 async def test_db_connection():
     try:
-        # Check if MongoDB is reachable
+        
         databases = await client.list_database_names()
         return {"status": "Connected", "databases": databases}
     except Exception as e:

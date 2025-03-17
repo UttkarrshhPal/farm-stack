@@ -25,7 +25,7 @@ async def create_risk(risk: RiskAssessment):
 @router.get("/")
 async def get_risks():
     risks = await collection.find().to_list(100)
-    return [risk_to_dict(risk) for risk in risks]  # Ensuring `id` is included
+    return [risk_to_dict(risk) for risk in risks]  
 
 
 # Get a single risk assessment by ID
