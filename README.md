@@ -39,7 +39,7 @@ cd farm-stack
 ```bash
 cd backend
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 3. Check the database connection:
