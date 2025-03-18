@@ -55,8 +55,7 @@ db.risks.find().pretty() # List all documents in the risks collection
 
 4. Initialize the frontend:
 ```bash
-cd ..
-cd frontend
+cd .\frontend
 npm install
 npm run dev
 ```
